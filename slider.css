@@ -1,0 +1,106 @@
+.slider {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 1440px;
+  min-height: 750px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(236, 95, 205, 0.267);
+  border-radius: 25px;
+}
+.slider__nav {
+  padding: 15px;
+  width: 10px;
+  height: 10px;
+  margin-left: 35px;
+  margin-bottom: 5px;
+  border-radius: 50%;
+  border: 0.1rem solid;
+  z-index: 10;
+  outline: 6px solid rgb(236, 95, 206);
+  outline-offset: -10px;
+  box-shadow: 0 0 0 0 rgb(51, 204, 255);
+  cursor: pointer;
+  appearance: none;
+}
+.slider__nav:checked {
+  animation: check 0.7s linear forwards;
+}
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+  left: 0%;
+}
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+  left: -99%;
+}
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+  left: -198%;
+}
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+  left: -296.9%;
+}
+.slider__inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: left 0.7s;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.slider__contents {
+  text-align: center;
+  margin: 20px;
+  display: flex;
+  flex: 1;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+input:hover {
+  background-color: rgb(51, 204, 255);
+}
+
+input:focus {
+  color: rgb(162, 0, 255);
+  background-color: rgb(51, 204, 255);
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 12px rgb(0, 0, 0), 0 0 0 36px rgba(90, 90, 90, 0.2);
+  }
+  100% {
+    outline-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 0 rgb(0, 0, 0), 0 0 0 0 rgbrgba(68, 68, 68, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 12px rgb(0, 0, 0), 0 0 0 36px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    outline-color: rgb(255, 255, 255);
+    box-shadow: 0 0 0 0 rgb(0, 0, 0), 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+.slider__image {
+  width: 1350px;
+  height: 650px;
+  border-radius: 15px;
+}
+.slider-link {
+  cursor: pointer;
+  transition: 0.8s;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
+.slider-link:hover::after {
+  transform: scale(1.05);
+}
