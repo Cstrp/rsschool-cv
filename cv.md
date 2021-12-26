@@ -1,6 +1,6 @@
 # Name: Valery Nosareu
 ## Date of birth: 20th november 1996
-# Email: *MrDeathCore96@gmail.com*g
+# Email: *MrDeathCore96@gmail.com*
 # Phone: +375295147900
 # Contact:
 ## [Github] https://github.com/Cstrp
