@@ -1,3 +1,3 @@
 # rsschool-cv
 ## https://cstrp.github.io/rsschool-cv/cv
-## https://cstrp.github.io/rsschool-cv/index.html
+## https://cstrp.github.io/rsschool-cv/
