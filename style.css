@@ -1,256 +1,252 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 html {
-  scroll-behavior: smooth;
-  user-select: none;
+	scroll-behavior: smooth;
+	user-select: none;
 }
 body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
-  background-size: 100%;
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
+	background-size: 100%;
 }
 li {
-  color: white;
-  list-style: none;
-  display: list-item;
-  font-size: 25px;
-  text-align: -webkit-match-parent;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: white;
+	list-style: none;
+	display: list-item;
+	font-size: 25px;
+	text-align: -webkit-match-parent;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 li:hover {
-  color: rgb(233, 196, 103);
-  -webkit-text-shadow: 5px 5px 5px rgb(233, 196, 103);
-  -moz-text-shadow: 5px 5px 5px rgb(233, 196, 103);
-  text-shadow: 5px 5px 5px rgb(233, 196, 103);
+	color: rgb(233, 196, 103);
+	-webkit-text-shadow: 5px 5px 5px rgb(233, 196, 103);
+	-moz-text-shadow: 5px 5px 5px rgb(233, 196, 103);
+	text-shadow: 5px 5px 5px rgb(233, 196, 103);
 }
 
 a {
-  text-transform: uppercase;
-  font-size: 20px;
-  text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
 }
 a:link {
-  color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 }
 a:visited {
-  color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 }
 a:hover {
-  color: rgb(233, 196, 103);
-  text-decoration: line-through;
+	color: rgb(233, 196, 103);
+	text-decoration: line-through;
 }
 ul {
-  padding: 0;
-  list-style: none;
+	padding: 0;
+	list-style: none;
 }
 img {
-  border-radius: 50%;
+	border-radius: 50%;
 }
 div {
-  max-width: 1440px;
+	max-width: 1440px;
 }
 pre {
-  color: white;
-  font-size: 25px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-style: italic;
-  text-align: justify;
+	color: white;
+	font-size: 25px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-style: italic;
+	text-align: justify;
 }
 pre:hover {
-  color: goldenrod;
-  -webkit-text-shadow: 5px 5px 5px rgb(233, 196, 103);
-  -moz-text-shadow: 5px 5px 5px rgb(233, 196, 103);
-  text-shadow: 5px 5px 5px rgb(233, 196, 103);
+	color: goldenrod;
+	-webkit-text-shadow: 5px 5px 5px rgb(233, 196, 103);
+	-moz-text-shadow: 5px 5px 5px rgb(233, 196, 103);
+	text-shadow: 5px 5px 5px rgb(233, 196, 103);
 }
 
 header .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 200px;
 }
 footer .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 100px;
 }
 
 h1 {
-  color: white;
-  text-transform: uppercase;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  letter-spacing: 2px;
-  padding-top: 50px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	letter-spacing: 2px;
+	padding-top: 50px;
 }
 h1:hover {
-  color: #ec5fce;
-  -webkit-text-shadow: 3px 3px 3px rgb(255, 255, 255);
-  -moz-text-shadow: 3px 3px 3px rgb(255, 255, 255);
-  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	color: #ec5fce;
+	-webkit-text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	-moz-text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	text-shadow: 3px 3px 3px rgb(255, 255, 255);
 }
 p {
-  color: white;
-  font-size: 25px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: justify;
+	color: white;
+	font-size: 25px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: justify;
 }
 h2,
 h3 {
-  color: white;
-  font-size: 25px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-top: 50px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	color: white;
+	font-size: 25px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-top: 50px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 h2:hover {
-  color: #ec5fce;
-  -webkit-text-shadow: 3px 3px 3px rgb(255, 255, 255);
-  -moz-text-shadow: 3px 3px 3px rgb(255, 255, 255);
-  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	color: #ec5fce;
+	-webkit-text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	-moz-text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	text-shadow: 3px 3px 3px rgb(255, 255, 255);
 }
 pre {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .container {
-  max-width: 1440px;
-  min-height: auto;
-  padding: 0 20px;
-  margin: 0 auto;
-  margin-top: 10px;
-  background-color: rgba(000, 000, 000, 0.5);
+	max-width: 1440px;
+	min-height: auto;
+	padding: 0 20px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: rgba(000, 000, 000, 0.5);
 }
 
 .row {
-  width: 100%;
-  display: table;
+	width: 100%;
+	display: table;
 }
 .title-name {
-  margin-top: -70px;
-  margin-left: -210px;
-  text-transform: uppercase;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	margin-top: -70px;
+	/* margin-left: -110px; */
+	text-transform: uppercase;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .title-name:hover {
-  color: #ec5fce;
-  -webkit-text-shadow: 3px 3px 3px rgb(255, 255, 255);
-  -moz-text-shadow: 3px 3px 3px rgb(255, 255, 255);
-  text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	color: #ec5fce;
+	-webkit-text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	-moz-text-shadow: 3px 3px 3px rgb(255, 255, 255);
+	text-shadow: 3px 3px 3px rgb(255, 255, 255);
 }
 
 .header-nav ul li {
-  list-style-type: none;
-  float: left;
-  margin: 0 40px; /*расстояние между пунктами по ширине*/
-  text-transform: uppercase;
-  font-style: normal;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	list-style-type: none;
+	float: left;
+	margin: 0 40px; /*расстояние между пунктами по ширине*/
+	text-transform: uppercase;
+	font-style: normal;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .skills {
-  text-align: right;
-  padding-right: 20px;
-  line-height: 40px;
-  color: white;
+	text-align: right;
+	padding-right: 20px;
+	line-height: 40px;
+	color: white;
 }
 .container-skill {
-  width: 100%;
-  background-color: #ddd;
+	width: 100%;
+	background-color: #ddd;
 }
 .html {
-  width: 70%;
-  background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
+	width: 70%;
+	background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
 }
 .css {
-  width: 70%;
-  background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
+	width: 70%;
+	background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
 }
 .js {
-  width: 20%;
-  background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
+	width: 20%;
+	background: linear-gradient(to left, #33ccff 0%, #ec5fce 100%);
 }
 .css:hover {
-  -webkit-text-shadow: 5px 5px 5px rgb(0, 0, 0);
-  -moz-text-shadow: 5px 5px 5px rgb(0, 0, 0);
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	-webkit-text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	-moz-text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 .js:hover {
-  -webkit-text-shadow: 5px 5px 5px rgb(0, 0, 0);
-  -moz-text-shadow: 5px 5px 5px rgb(0, 0, 0);
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	-webkit-text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	-moz-text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 .html:hover {
-  -webkit-text-shadow: 5px 5px 5px rgb(0, 0, 0);
-  -moz-text-shadow: 5px 5px 5px rgb(0, 0, 0);
-  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	-webkit-text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	-moz-text-shadow: 5px 5px 5px rgb(0, 0, 0);
+	text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 .slider {
-  overflow: hidden;
-  position: relative;
+	overflow: hidden;
+	position: relative;
 }
 .softskill {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10px;
-  margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 .text {
-  font-size: 20px;
-  margin-top: 20px;
+	font-size: 20px;
+	margin-top: 20px;
 }
 .year {
-  color: white;
+	color: white;
 }
 .gh-link {
-  color: white;
+	color: white;
 }
 .logo-rsschool {
-  color: white;
-  width: 70px;
-  height: 70px;
-  background-color: white;
+	color: white;
+	width: 70px;
+	height: 70px;
+	background-color: white;
 }
 
 .contact {
-  margin-top: -367px;
-  background-color: transparent;
-  margin-right: 0px;
-  width: 350px;
+	margin-top: -367px;
+	background-color: transparent;
+	margin-right: 0px;
+	width: 350px;
 }
 p:hover {
-  -webkit-text-shadow: 5px 5px 5px rgb(255, 255, 255);
-  -moz-text-shadow: 5px 5px 5px rgb(255, 255, 255);
-  text-shadow: 5px 5px 5px rgb(255, 255, 255);
+	-webkit-text-shadow: 5px 5px 5px rgb(255, 255, 255);
+	-moz-text-shadow: 5px 5px 5px rgb(255, 255, 255);
+	text-shadow: 5px 5px 5px rgb(255, 255, 255);
 }
 
 .line {
-  width: 140px;
-  height: 5px;
-  transition: 0.55s;
-  cursor: pointer;
+	width: 140px;
+	height: 5px;
+	transition: 0.55s;
+	cursor: pointer;
 }
 .line:hover::after {
-  width: 1400px;
+	width: 1400px;
 }
 .line::after {
-  display: block;
-  content: "";
-  height: 3px;
-  width: 300px;
-  background: linear-gradient(
-    to left,
-    rgb(51, 204, 255) 0%,
-    rgb(236, 95, 206) 100%
-  );
-  transition: 0.75s linear;
-  position: relative;
+	display: block;
+	content: '';
+	height: 3px;
+	width: 300px;
+	background: linear-gradient(to left, rgb(51, 204, 255) 0%, rgb(236, 95, 206) 100%);
+	transition: 0.75s linear;
+	position: relative;
 }
