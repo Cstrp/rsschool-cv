@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link type="text/css" rel="stylesheet" href="./style.css" />
+		<link type="text/css" rel="stylesheet" href="./slider.css" />
+		<link rel="shortcut icon" href="./images/infection-cause.png" type="image/x-icon" />
+		<title>CV</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<img src="./images/42d2b07ebce014fa25ef62ec5171253d.jpg" alt="avatar" width="150" height="150" />
+				<p class="title-name">Valerii Nosareu</p>
+				<nav class="header-nav">
+					<ul>
+						<li><a href="#title-0">About me</a></li>
+						<li><a href="#title-1">Education</a></li>
+						<li><a href="#title-2">Skill</a></li>
+						<li><a href="#title-3">Example code</a></li>
+						<li><a href="#title-4">My work</a></li>
+					</ul>
+				</nav>
+				<div class="wrapper">
+					<a href="https://cstrp.github.io/CV/">Normal link...</a>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="container">
+				<h1 id="title-0">About me</h1>
+				<p>
+					My name is Valery, and I was born in the city of Mogilev, Republic of Belarus, where I live and work at the
+					present time. I can say about myself, that I have is that I have such qualities as: politeness, the ability to
+					easily find contact with people, an active life position, the ability to achieve set goals, stress resistance.
+					My goal is to become a qualified specialist in the IT field, in the direction of front-end development, and
+					the motivation on this path is the desire to expand my horizons, develop skills in the direction.
+				</p>
+
+				<h2 id="title-1">Education</h2>
+				<p>Higher legal education:</p>
+				<p>2014-2018 Mogilev Institute of the Ministry of Internal Affairs Republic of Belarus</p>
+				<h2>Front-end developer:</h2>
+				<ul>
+					<li>
+						<a href="https://learn.javascript.ru/">learn.javascript</a>
+					</li>
+					<li><a href="https://htmlacademy.ru/">htmlacademy</a></li>
+					<li>
+						<a href="https://www.google.com/webhp?hl=ru&sa=X&ved=0ahUKEwiLjZXP3O_yAhWR_KQKHXDcAYIQPAgI">GOOGLE</a>
+					</li>
+					<li><a href="https://stackoverflow.com/"> stackoverflow</a></li>
+					<li>
+						<a href="https://ru.code-basics.com/"> ru.code-basics</a>
+					</li>
+				</ul>
+				<div class="container contact">
+					<h2>contact</h2>
+					<ul>
+						<li>Email:<a href="mailto:callboy1337@yandex.by">callboy1337@yandex.by</a></li>
+						<li>Phone:<a href="tel:+375295147900">+375295147900</a></li>
+					</ul>
+					<h2>Level of proficiency in:</h2>
+					<ul>
+						<li>English (A2-B1)</li>
+						<li>Native Russian, Belarusian</li>
+					</ul>
+				</div>
+
+				<h2 id="title-2">Skill</h2>
+				<p class="text">HTML</p>
+				<div class="container-skill">
+					<div class="skills html">70%</div>
+				</div>
+				<p class="text">CSS</p>
+				<div class="container-skill">
+					<div class="skills css">70%</div>
+				</div>
+				<p class="text">JavaScript</p>
+				<div class="container-skill">
+					<div class="skills js">20%</div>
+				</div>
+				<h2>Soft skill</h2>
+				<ul class="softskill">
+					<li>Communicative</li>
+					<li>Creative</li>
+					<li>Perseverance</li>
+					<li>Easy to find common ground</li>
+					<li>Conflict-free</li>
+				</ul>
+				<div class="line"></div>
+
+				<h2 id="title-3">Example code</h2>
+				<pre>
+             function words (string){
+            let a=string.split('');
+            const b='QLGNAEKIRLRNGEAE'.split('');
+            return a.map(c => 
+            {let y=b.indexOf(c);
+            s=Math.sqrt(b.length)|0;
+            return [y/s|0,y%s]}); 
+            };
+            console.log(words('QUEEN KING'));</pre
+				>
+
+				<h2 id="title-4">My Work</h2>
+				<div class="slider">
+					<input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav" />
+					<input type="radio" name="slider" title="slide2" class="slider__nav" />
+					<input type="radio" name="slider" title="slide3" class="slider__nav" />
+					<input type="radio" name="slider" title="slide4" class="slider__nav" />
+					<div class="slider__inner">
+						<div class="slider__contents">
+							<a class="slider-link" href="https://cstrp-museum.netlify.app"
+								><img class="slider__image" src="./images/cstrp-museum.netlify.app_.png" alt="Museum"
+							/></a>
+						</div>
+						<div class="slider__contents">
+							<a class="slider-link" href="https://cstrp-drumkit.netlify.app"
+								><img class="slider__image" src="./images/cstrp-drumkit.netlify.app_.png" alt="Drumkit"
+							/></a>
+						</div>
+						<div class="slider__contents">
+							<a class="slider-link" href="https://cstrp-whack-a-mole.netlify.app"
+								><img class="slider__image" src="./images/cstrp-whack-a-mole.netlify.app_.png" alt="Attack"
+							/></a>
+						</div>
+						<div class="slider__contents">
+							<a class="slider-link" href="https://cstrp.github.io/cssMemSlider/cssMemSlider/index.html"
+								><img
+									class="slider__image"
+									data-title=""
+									src="./images/cstrp.github.io_cssMemSlider_cssMemSlider_index.html.png"
+									alt="LikesMemes"
+							/></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer>
+			<div class="container">
+				<a class="links__logo-rsschool" href="https://rs.school/js/">
+					<img class="logo-rsschool" src="https://rs.school/images/rs_school.svg" alt="rsschool image" width="50"
+				/></a>
+				<pre class="year"> 2022© </pre>
+				<a class="gh-link" href="https://github.com/cstrp">GitHub</a>
+			</div>
+		</footer>
+		<script src="./clock.js"></script>
+	</body>
+</html>
